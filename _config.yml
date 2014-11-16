@@ -12,5 +12,6 @@ github_username:  zsyed91
 # Build settings
 markdown: kramdown
 pygments: true
+# Need to update this to highlight on master
 permalink: highlight
 paginate: 10
