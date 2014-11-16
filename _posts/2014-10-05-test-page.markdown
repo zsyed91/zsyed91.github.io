@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Site launch"
+date:   2014-10-05
+summary: site.initialize()
+---
+
+
+First post! Just put this site up and will be finalizing it shortly.
+
+
+
+{% highlight ruby %}
+def initialize(name)
+  puts "Hi, #{name}."
+end
+
+initialize('You')
+#=> prints 'Hi, You.' to STDOUT.
+{% endhighlight %}
+
+

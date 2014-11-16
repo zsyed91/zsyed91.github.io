@@ -1,0 +1,44 @@
+.gallery {
+
+    margin-top: 15px;
+    list-style: none;
+    
+    .content {
+        padding: 15px;
+        height: 200px;
+        @extend .wrapper;
+    }
+    
+}
+
+
+@media(max-width:767px) {
+    .gallery {
+        h2 {
+            font-size: 10pt;
+        }
+    }
+}
+
+@media(max-width:992px){
+    .gallery {
+        h2 {
+            font-size: 12pt;
+        }
+    }
+}
+
+@media(max-width:1200px){
+    .gallery {
+        h2 {
+            font-size: 14pt;
+        }
+    }
+}
+@media(min-width: 1201px) {
+	.gallery {
+		h2 {
+			font-size: 16pt;
+		}
+	}
+}

@@ -1,0 +1,87 @@
+---
+layout: home
+---
+
+
+<section class="page-content">
+  <div class="container wrapper">
+
+    <h1>Recent Posts</h1>
+
+    <ul class="post-list">
+    {% for post in site.posts limit: 3 %}
+      <li>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <p>{{post.summary}}</p>
+      </li>
+    {% endfor %}
+  </ul>
+
+  </div>
+</section>
+
+
+<div class="no-gutters container">
+<section class="row">
+
+  <div class="col-md-4">
+    <div class="home-box col-sm-12">
+
+        <h3>Projects</h3>
+        <ul>
+          <li>
+            <a href="projects/js-password-restrictor">JS Password Restrictor</a>
+          </li>
+          <li>
+            <a href="projects/prcc">PRCC</a>
+          </li>
+          <li>
+            <a href="projects/perl-debugger">Perl Debugger</a>
+          </li>
+        </ul>
+
+        <a href="projects" title="View All" class="btn btn-default btn-block btn-md">View All</a>
+        <br>
+
+    </div>
+  </div>
+
+   <div class="col-md-4">
+    <div class="home-box col-sm-12">
+
+        <h3>Downloads</h3>
+        <ul>
+          <li>
+            <a href="https://github.com/zsyed91/perl-debugger" target="_blank">Perl Debugger</a>
+          </li>
+
+        </ul>
+
+        <br>
+
+    </div>
+  </div> 
+
+   <div class="col-md-4">
+    <div class="home-box col-sm-12">
+
+        <h3>Top Posts</h3>
+        <ul>
+          <li>
+            <a href="/2014/10/10/debugging-tips/">Debugging tips</a>
+          </li>
+        </ul>
+
+
+        <br>
+
+    </div>
+  </div>
+
+</section>
+</div>
