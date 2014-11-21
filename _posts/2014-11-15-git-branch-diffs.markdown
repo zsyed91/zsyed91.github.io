@@ -6,7 +6,7 @@ summary: How to see what files were changed in one branch vs another (like the m
 ---
 
 
-Sometimes before mergine a development branch back into the master branch, I want to see what files were changed. The command to do this in git is simple. It will list out the files that were either added, modified, or deleted.
+Sometimes before merging a development branch back into the master branch, I want to see what files were changed. The command to do this in git is simple. It will list out the files that were either added, modified, or deleted.
 
 
 	git diff --name-status branch1..branch2
