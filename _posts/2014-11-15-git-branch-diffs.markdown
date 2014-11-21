@@ -2,7 +2,7 @@
 layout: post
 title:  Git Tips - Diff 2 branches
 date:   2014-11-15
-summary: How to see what files were changes in one branch vs another (like the master branch)
+summary: How to see what files were changed in one branch vs another (like the master branch)
 ---
 
 
