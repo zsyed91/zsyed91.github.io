@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"min-width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 475,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ishikawa91/www/zshawnsyed/blog/index.html",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_config.yml",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_site/blog/index.html",
+		"/Users/ishikawa91/www/zshawnsyed/README.rdoc",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_sass/_gallery.scss",
+		"/Users/ishikawa91/www/zshawnsyed/blog/projects/prcc.md",
+		"/Users/ishikawa91/www/zshawnsyed/.gitignore",
+		"/Users/ishikawa91/Documents/code/perl/Debugger/README.md",
+		"/Users/ishikawa91/www/zshawnsyed/blog/projects.md",
+		"/Users/ishikawa91/www/zshawnsyed/blog/contact.md",
+		"/Users/ishikawa91/www/zshawnsyed/blog/resume.md",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_layouts/post.html",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_posts/2014-10-15-git-pull-in-new-project.md",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_posts/2014-10-05-test-page.markdown",
+		"/Users/ishikawa91/www/zshawnsyed/blog/projects/js-password-restrictor.md",
+		"/Users/ishikawa91/www/zshawnsyed/blog/projects/perl-debugger.md",
+		"/Users/ishikawa91/www/zshawnsyed/blog/blog.md",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_sass/_layout.scss",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_posts/2014-10-10-debugging-tips.markdown",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_layouts/default.html",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_sass/_base.scss",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_includes/header.html",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_layouts/home.html",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_includes/footer.html",
+		"/Users/ishikawa91/Downloads/dist/css/bootstrap.css",
+		"/Users/ishikawa91/www/zshawnsyed/blog/css/site.scss",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_layouts/gallery.html",
+		"/Users/ishikawa91/www/zshawnsyed/blog/css/main.scss",
+		"/Users/ishikawa91/Downloads/Ex_Files_UaR_Bootstp3/Exercise Files/Chapter 3/03_08/Final/03_08.html",
+		"/Users/ishikawa91/Downloads/Ex_Files_UaR_Bootstp3/Exercise Files/Chapter 3/03_03/Final/03_03.html",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_layouts/page.html",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_includes/head.html",
+		"/Users/ishikawa91/Downloads/dist/css/bootstrap.css.map",
+		"/Users/ishikawa91/Library/Application Support/Sublime Text 2/Packages/CSS/CSS.tmLanguage",
+		"/Users/ishikawa91/www/zshawnsyed/blog/about.md",
+		"/Users/ishikawa91/www/zshawnsyed/blog/projects/some.md",
+		"/Users/ishikawa91/www/zshawnsyed/config.ru",
+		"/Users/ishikawa91/www/zshawnsyed/blog/Index.md",
+		"/Users/ishikawa91/www/prcc/javascript/admin/editUsers.js",
+		"/Users/ishikawa91/www/prcc/includes/controllers/AdminController.class.php",
+		"/Users/ishikawa91/www/prcc/includes/controllers/Ajax/DocumentsController.class.php",
+		"/Users/ishikawa91/www/prcc/includes/views/documents/search.php",
+		"/Users/ishikawa91/www/prcc/includes/views/documents/search-results.php",
+		"/Users/ishikawa91/www/prcc/includes/controllers/DocumentsController.class.php",
+		"/Users/ishikawa91/www/prcc/includes/views/profile/user-home.php",
+		"/Users/ishikawa91/www/prcc/includes/controllers/Ajax/AdminController.class.php",
+		"/Users/ishikawa91/www/prcc/includes/views/admin/user-edit.php",
+		"/Users/ishikawa91/www/prcc/includes/classes/User/User.class.php",
+		"/Users/ishikawa91/www/prcc/includes/classes/Core/Role.class.php",
+		"/Users/ishikawa91/www/prcc/includes/controllers/Controller.class.php",
+		"/Users/ishikawa91/www/prcc/index.php",
+		"/Users/ishikawa91/www/prcc/includes/controllers/Ajax/AjaxController.class.php",
+		"/Users/ishikawa91/www/prcc/javascript/globals.js",
+		"/Users/ishikawa91/www/prcc/includes/classes/db.class.php",
+		"/Users/ishikawa91/www/prcc/includes/controllers/DispatcherController.class.php",
+		"/Users/ishikawa91/www/prcc/includes/classes/Core/Permission.class.php",
+		"/Users/ishikawa91/www/prcc/includes/classes/Core/Time.class.php",
+		"/Users/ishikawa91/www/prcc/includes/classes/Core/DAO.class.php",
+		"/Users/ishikawa91/www/prcc/includes/controllers/AccountController.class.php",
+		"/Users/ishikawa91/www/prcc/includes/classes/User/PendingUser.class.php",
+		"/Users/ishikawa91/www/prcc/includes/controllers/ProfileController.class.php",
+		"/Users/ishikawa91/www/prcc/includes/classes/Core/Session.class.php",
+		"/Users/ishikawa91/www/prcc/includes/classes/Elements/Menu.class.php",
+		"/Users/ishikawa91/www/prcc/includes/classes/Elements/MenuItem.class.php",
+		"/Users/ishikawa91/www/prcc/includes/views/admin/users-overview.php",
+		"/Users/ishikawa91/www/prcc/includes/config/app.class.php",
+		"/Users/ishikawa91/www/prcc/includes/classes/Core/Bcrypt.class.php",
+		"/private/etc/apache2/httpd.conf",
+		"/Users/ishikawa91/www/prcc/includes/config/constants.php",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_posts/2014-10-05-welcome-to-jekyll.markdown",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_site/css/main.css",
+		"/Users/ishikawa91/www/zshawnsyed/blog/example",
+		"/Users/ishikawa91/www/zshawnsyed/blog/_posts/2014-10-05-test-page.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"prcc",
+			"  \n",
+			"Developer",
+			".content",
+			"content",
+			"header",
+			"bottom",
+			"footer",
+			"md",
+			"    \n",
+			"content",
+			"wrapper",
+			".menu",
+			"menu",
+			"post-list",
+			"Posts",
+			"icon",
+			"Project",
+			"300px",
+			"extend",
+			"wrapper",
+			"action",
+			"'dates'",
+			"dates",
+			"Misc",
+			"misc",
+			"Misc",
+			"dates",
+			"data",
+			"exce",
+			"database",
+			"databaseexe",
+			"[]",
+			"			\n",
+			"gener",
+			"post",
+			"media-query"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_config.yml",
+					"settings":
+					{
+						"buffer_size": 475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"prcc",
+				"blog/projects/prcc.md"
+			],
+			[
+				"post.html",
+				"blog/_layouts/post.html"
+			],
+			[
+				"prcc.md",
+				"blog/projects/prcc.md"
+			],
+			[
+				"perl",
+				"blog/projects/perl-debugger.md"
+			],
+			[
+				"projects.",
+				"blog/projects.md"
+			],
+			[
+				"index.html",
+				"blog/index.html"
+			],
+			[
+				"inde",
+				"blog/index.html"
+			],
+			[
+				"galler",
+				"blog/_sass/_gallery.scss"
+			],
+			[
+				"proje",
+				"blog/projects.md"
+			],
+			[
+				"resume",
+				"blog/resume.md"
+			],
+			[
+				"conta",
+				"blog/contact.md"
+			],
+			[
+				"gall",
+				"blog/_sass/_gallery.scss"
+			],
+			[
+				"layout",
+				"blog/_sass/_layout.scss"
+			],
+			[
+				"base",
+				"blog/_sass/_base.scss"
+			],
+			[
+				"p",
+				"blog/projects.md"
+			],
+			[
+				"in",
+				"blog/index.html"
+			],
+			[
+				"_layout",
+				"blog/_sass/_layout.scss"
+			],
+			[
+				"default",
+				"blog/_layouts/default.html"
+			],
+			[
+				"post",
+				"blog/_layouts/post.html"
+			],
+			[
+				"footer.html",
+				"blog/_includes/footer.html"
+			],
+			[
+				"projects",
+				"blog/projects.md"
+			],
+			[
+				"projec",
+				"blog/projects.md"
+			],
+			[
+				"header",
+				"blog/_includes/header.html"
+			],
+			[
+				"head.html",
+				"blog/_includes/head.html"
+			],
+			[
+				"head",
+				"blog/_includes/header.html"
+			],
+			[
+				"layout.sc",
+				"blog/_sass/_layout.scss"
+			],
+			[
+				"_confi",
+				"blog/_config.yml"
+			],
+			[
+				"config.yml",
+				"blog/_config.yml"
+			],
+			[
+				"conf",
+				"config.ru"
+			],
+			[
+				"footer",
+				"blog/_includes/footer.html"
+			],
+			[
+				"router",
+				"includes/classes/Router.class.php"
+			],
+			[
+				"document.",
+				"includes/classes/Core/Document.class.php"
+			],
+			[
+				"documentscontr",
+				"includes/controllers/DocumentsController.class.php"
+			],
+			[
+				"search.php",
+				"includes/views/documents/search.php"
+			],
+			[
+				"documentscon",
+				"includes/controllers/DocumentsController.class.php"
+			],
+			[
+				"user.php",
+				"includes/classes/User/User.class.php"
+			],
+			[
+				"role",
+				"includes/classes/Core/Role.class.php"
+			],
+			[
+				"ajaxcon",
+				"includes/controllers/Ajax/AjaxController.class.php"
+			],
+			[
+				"dispat",
+				"includes/controllers/DispatcherController.class.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"db.",
+				"includes/classes/db.class.php"
+			],
+			[
+				"controller",
+				"includes/controllers/Controller.class.php"
+			],
+			[
+				"per",
+				"includes/classes/Core/Permission.class.php"
+			],
+			[
+				"conto",
+				"includes/controllers/Controller.class.php"
+			],
+			[
+				"dao",
+				"includes/classes/Core/DAO.class.php"
+			],
+			[
+				"time",
+				"includes/classes/Core/Time.class.php"
+			],
+			[
+				"admincont",
+				"includes/controllers/Ajax/AdminController.class.php"
+			],
+			[
+				"profile",
+				"includes/controllers/ProfileController.class.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"db",
+				"includes/classes/db.class.php"
+			],
+			[
+				"pendinguser.cl",
+				"includes/classes/User/PendingUser.class.php"
+			],
+			[
+				"accountcon",
+				"includes/controllers/AccountController.class.php"
+			],
+			[
+				"global",
+				"javascript/globals.js"
+			],
+			[
+				"admin/edit",
+				"javascript/admin/editUsers.js"
+			],
+			[
+				"admin/user",
+				"includes/views/admin/user-edit.php"
+			],
+			[
+				"admincon",
+				"includes/controllers/AdminController.class.php"
+			],
+			[
+				"menui",
+				"includes/classes/Elements/MenuItem.class.php"
+			],
+			[
+				"menu.c",
+				"includes/classes/Elements/Menu.class.php"
+			],
+			[
+				"sess",
+				"includes/classes/Core/Session.class.php"
+			],
+			[
+				"perm",
+				"includes/classes/Core/Permission.class.php"
+			],
+			[
+				"user-edit",
+				"includes/views/admin/user-edit.php"
+			],
+			[
+				"classes/",
+				"includes/classes/Core/Document.class.php"
+			],
+			[
+				"user.cl",
+				"includes/classes/User/User.class.php"
+			],
+			[
+				"admin/users-",
+				"includes/views/admin/users-overview.php"
+			],
+			[
+				"b",
+				"includes/classes/Core/Bcrypt.class.php"
+			],
+			[
+				"app.",
+				"includes/config/app.class.php"
+			],
+			[
+				"db.cl",
+				"includes/classes/db.class.php"
+			],
+			[
+				"index.php",
+				"index.php"
+			],
+			[
+				"config",
+				"_config.yml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true
+}
