@@ -21,3 +21,6 @@ Will output:
 	A   app/controllers/new_controller.rb
 	M   app/views/layout/main_template.html.erb
 	D   app/assets/javascripts/demo.js
+
+
+The output makes it easy to quickly see what files were changed and their statuses between the two branches.
