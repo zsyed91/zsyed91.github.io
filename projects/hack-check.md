@@ -28,9 +28,14 @@ Add the following manifest path to add the application:
     http://hackcheck.zshawnsyed.com/manifest.webapp
 
 
-#### Packaged
+#### Marketplace
 
-Coming soon, once available go to the Firefox Marketplace and search for `hack-check` and add it your device. 
+The listing on the [Firefox Marketplace](https://marketplace.firefox.com/app/hack-check).
+
+
+### Support 
+
+If you have any questions or need assistance please send me an [email](mailto:hackcheck@zshawnsyed.com)!
 
 
 ### How to build
