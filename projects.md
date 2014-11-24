@@ -21,6 +21,21 @@ overview: These are the projects I am either currently working on or have worked
 
 		<li class="col-lg-4 col-sm-6">
 			<div class="content">
+				<h2>Hack-Check</h2>
+				<p>A Firefox OS App that checks to see if your email address has shown up in any recent data breaches.</p>
+
+				<a href="hack-check" 
+					class="hidden-xs btn btn-primary btn-md pull-right" 
+					title="View Project">View Project</a>
+				
+				<a href="hack-check" 
+					class="visible-xs btn btn-primary btn-block btn-sm" 
+					title="View Project">View Project</a>
+			</div>
+		</li>
+
+		<li class="col-lg-4 col-sm-6">
+			<div class="content">
 				<h2>Document Manager</h2>
 				<p>A historical document management system for the Chicago Puerto Rico Cultural Center</p>
 
@@ -49,6 +64,9 @@ overview: These are the projects I am either currently working on or have worked
 					title="View Project">View Project</a>
 			</div>
 		</li>
+
+
+
 
 	</ul>
 </section>
