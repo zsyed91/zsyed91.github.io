@@ -38,3 +38,6 @@ Coming soon, once available go to the Firefox Marketplace and search for `hack-c
 If you want to build it from source, all you need to run `ruby build.rb` and that will compile all the needed assets.
 
 
+### Data Source
+
+All data is pulled from haveibeenpwned.com's public api.
