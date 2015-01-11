@@ -2,7 +2,7 @@
 name: Zshawn Syed
 title: Zshawn Syed
 email: zsyed91@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "baseurl:" 
   A collection of tips, blunders, and experiences of a programmer.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zshawnsyed.com" # the base hostname & protocol for your site
