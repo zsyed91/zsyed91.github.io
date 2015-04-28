@@ -89,6 +89,23 @@ This is where we hold our npm dependencies for the backend like `jquery`, or `un
 It will then search `package.json` and attempt to find a matching package on npmjs.com and install the package locally under a folder called `node_modules`.
 
 
+## Running your project
+
+Type in the following in a terminal at the root of your project:
+
+    $ npm start
+
+It should successfully start running a web instance of your project that you can visit via [localhost:3000](localhost:3000). I like to use a tool called nodemon because it automatically restarts the webserver every time you change a `.js` file.
+
+### Nodemon
+To install `nodemon` run the following in a terminal:
+
+    $ npm install -g nodemon
+
+This will install it globally via the `-g` flag. And now replace `npm start` with (at the root of your project):
+
+    $ nodemon bin/www
+
 ## Conclusion
 
 That's it! We now have a test project all set up and we can begin working on getting our pages running and hooking things up to a database and api.
