@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to start an Node/Express Project
+title: How to start a Node/Express Project
 date: 2015-4-28
 summary: Starting an Express.JS project from scratch
 ---
