@@ -13,7 +13,7 @@ The npm handlebars package is `express-handlebars`. Add the following to your `p
 
     "express-handlebars": "*"
 
- `"*"` will pull the latest version, feel free to substitute this with a specific version number if you wish. Now just change `app.js` to use the handlebars engine instead of Jade:
+ `"*"` will pull the latest version, feel free to substitute this with a specific version number if you wish. Now just change `app.js` to use the handlebars engine instead of Jade.
 
 
 ## Switch template engines
