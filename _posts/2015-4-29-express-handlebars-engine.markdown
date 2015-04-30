@@ -38,4 +38,4 @@ app.set('view engine', 'handlebars');
 {% endhighlight %}
 
 
-Thats all! Now under `{project_root}/views` you can put your handlebars tempates. By default the file extension is `.handlebars`.
+Thats all! Now under `{project_root}/views` you can put your handlebars templates. By default the file extension is `.handlebars`.
