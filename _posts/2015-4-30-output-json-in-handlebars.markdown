@@ -45,7 +45,13 @@ If you use the helper function defined with `Handlebars.SafeString` add this in 
 
 {% endraw %}
 
-And if you don't use the `Handlebars.SafeString` method you will need to prevent the auto-escaping that `{{ }}` will do.
+And if you don't use the `Handlebars.SafeString` method you will need to prevent the auto-escaping that 
+{% raw %}
+
+	{{ }}
+
+{% endraw %}
+ will do.
 
 {% raw %}
 
