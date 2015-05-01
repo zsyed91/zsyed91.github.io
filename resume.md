@@ -16,7 +16,7 @@ overview: I am a passionate software developer who enjoys creating useful tools 
 			<h5>June 2013 - Present</h5>
 
 			<ul>
-				<li>Use Perl, Java, Javascript, HTML/CSS, Backbone.js to write Emergency Department EMR Application</li>
+				<li>Use Perl, Java, Javascript, HTML/CSS/SASS, Backbone/Handlebars to write Emergency Department EMR Application</li>
 				<li>Research and implement new product ideas</li>
 				<li>Fix security issues and harden the system</li>
 				<li>Fix bugs and defects for release in service packs</li>
@@ -63,10 +63,12 @@ overview: I am a passionate software developer who enjoys creating useful tools 
 			<h3>Technologies and Skills</h3>
 
 			<ul>
-				<li>Javascript</li>
-				<li>Backbone.js</li>
+				<li>Javascript (Underscore, Require)</li>
+				<li>Backbone/Handlebars</li>
+				<li>MongoDB</li>
 				<li>Java</li>
 				<li>Bootstrap</li>
+				<li>Node/Express/npm</li>
 				<li>HTML/CSS/SASS</li>
 				<li>JQuery/JQuery UI</li>
 				<li>Perl</li>
@@ -82,8 +84,10 @@ overview: I am a passionate software developer who enjoys creating useful tools 
 				<li>Git/Mercurial/Subversion</li>
 				<li>Agile/Scrum/Kanban</li>
 				<li>JSON/XML</li>
-
+				<li>Heroku</li>
+				<li>Vagrant</li>
 			</ul>
+			
 		</div>
 
 		<div class="wrapper">
