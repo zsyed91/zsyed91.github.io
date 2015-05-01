@@ -9,7 +9,7 @@ Using Express, I find myself in need of having some bootstrapped data for the fr
 
 ## The helper function
 
-{% highligh javascript %}
+{% highlight javascript %}
 
 var Handlebars.registerHelper('toJSON', function(object){
 	return new Handlebars.SafeString(JSON.stringify(object));
@@ -21,7 +21,7 @@ var Handlebars.registerHelper('toJSON', function(object){
 
 Here is an easy way to add the above helper into your express project using `express-handlebars`.
 
-{% highligh javascript %}
+{% highlight javascript %}
 
 app.engine('handlebars', handlebars({
   defaultLayout: 'main', 
@@ -39,16 +39,16 @@ app.engine('handlebars', handlebars({
 
 If you use the helper function defined with `Handlebars.SafeString` add this in your template:
 
-{% highligh javascript %}
+{% raw %}
 
-{{toJSON someJSON}}
+	{{toJSON someJSON}}
 
-{% endhighlight %}
+{% endraw %}
 
 And if you don't use the `Handlebars.SafeString` method you will need to prevent the auto-escaping that `{{ }}` will do.
 
-{% highlight javascript %}
+{% raw %}
 
-{{{toJSON someJSON}}}
+	{{{toJSON someJSON}}}
 
-{% endhighlight %}
+{% endraw %}
