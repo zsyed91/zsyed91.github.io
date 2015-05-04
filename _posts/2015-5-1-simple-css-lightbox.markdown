@@ -7,7 +7,7 @@ summary: Simply lightbox with SASS and making it a Backbone component
 
 Sometimes I want to have a simple popup without having to bust out the full JQuery UI dialog widget. Using a little bit of SASS and HTML, we can create a simple popup/lightbox widget and convert it into a Backbone component so our code is DRY.
 
-Here is the link to the [source](https://github.com/zsyed91/lightbox)
+Here is the link to the [source](https://github.com/zsyed91/lightbox).
 
 
 ## The HTML
@@ -204,5 +204,5 @@ Here is the lightbox html template in `Handlebars`.
 
 ## Source
 
-Github source code: [lightbox source](https://github.com/zsyed91/lightbox)
+Github source code: [lightbox source](https://github.com/zsyed91/lightbox).
 
