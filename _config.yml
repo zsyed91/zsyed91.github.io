@@ -11,5 +11,6 @@ github_username:  zsyed91
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 permalink: pretty
 paginate: 10
