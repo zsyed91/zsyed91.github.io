@@ -19,7 +19,7 @@ router.get('/employees', function(req, res, next){
 
 	// Apologies for not error checking!
 	Department.find({name: 'Development'}, function(error, department){
-		Manager.find({departmentId: department._id}, functioni(error, manager){
+		Manager.find({departmentId: department._id}, function(error, manager){
 			Employee.find({manager: manager.name},function(error, employees){
 				res.render('employees', {
 					employees: employees
