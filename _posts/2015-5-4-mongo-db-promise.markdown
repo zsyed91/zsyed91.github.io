@@ -132,7 +132,7 @@ Department.statics.getDepartment = function(name) {
     var deferred = Q.defer();
 
     // Find a single department and return in
-    this.findOne('name', {name: name}, function(error, department){
+    this.findOne({name: name}, function(error, department){
 
         if (error) {
         	// Throw an error
