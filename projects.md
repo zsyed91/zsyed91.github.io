@@ -81,6 +81,22 @@ overview: These are the projects I am either currently working on or have worked
 		</li>
 
 
+		<li class="col-lg-4 col-sm-6">
+			<div class="content">
+				<h2>Handlebars-Contrib</h2>
+				<p>Handlebars helper functions split into library files. Fully AMD compliant</p>
+
+				<a href="/projects/handlebars-contrib" 
+					class="hidden-xs btn btn-primary btn-md pull-right" 
+					title="View Project">View Project</a>
+				
+				<a href="/projects/handlebars-contrib" 
+					class="visible-xs btn btn-primary btn-block btn-sm" 
+					title="View Project">View Project</a>
+			</div>
+		</li>
+
+
 
 
 	</ul>
