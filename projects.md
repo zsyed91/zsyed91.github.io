@@ -99,7 +99,7 @@ overview: These are the projects I am either currently working on or have worked
 		<li class="col-lg-4 col-sm-6">
 			<div class="content">
 				<h2>Backbone-Cache</h2>
-				<p>Backbone component for cache management. Simple to integrate, almost 100% drop in with very minimal code change.</p>
+				<p>Backbone component for cache management. Simple to integrate, almost 100% drop in.</p>
 
 				<a href="/projects/backbone-cache" 
 					class="hidden-xs btn btn-primary btn-md pull-right" 
