@@ -37,7 +37,7 @@ overview: These are the projects I am either currently working on or have worked
 		<li class="col-lg-4 col-sm-6">
 			<div class="content">
 				<h2>Document Manager</h2>
-				<p>A historical document management system for the Chicago Puerto Rico Cultural Center</p>
+				<p>A historical document management system for the Chicago Puerto Rico Cultural Center.</p>
 
 				<a href="/projects/prcc" 
 					class="hidden-xs btn btn-primary btn-md pull-right" 
@@ -68,7 +68,7 @@ overview: These are the projects I am either currently working on or have worked
 		<li class="col-lg-4 col-sm-6">
 			<div class="content">
 				<h2>Lightbox</h2>
-				<p>A simple lightbox written as a Backbone component using SASS, Handlebars, and Backbone</p>
+				<p>A simple lightbox written as a Backbone component using SASS, Handlebars, and Backbone.</p>
 
 				<a href="/projects/lightbox" 
 					class="hidden-xs btn btn-primary btn-md pull-right" 
@@ -84,7 +84,7 @@ overview: These are the projects I am either currently working on or have worked
 		<li class="col-lg-4 col-sm-6">
 			<div class="content">
 				<h2>Handlebars-Contrib</h2>
-				<p>Handlebars helper functions split into library files. Fully AMD compliant</p>
+				<p>Handlebars helper functions split into library files. Fully AMD compliant for use with require js.</p>
 
 				<a href="/projects/handlebars-contrib" 
 					class="hidden-xs btn btn-primary btn-md pull-right" 
