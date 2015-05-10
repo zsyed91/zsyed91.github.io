@@ -96,6 +96,20 @@ overview: These are the projects I am either currently working on or have worked
 			</div>
 		</li>
 
+		<li class="col-lg-4 col-sm-6">
+			<div class="content">
+				<h2>Backbone-Cache</h2>
+				<p>Backbone component for cache management. Simple to integrate, almost 100% drop in with very minimal code change.</p>
+
+				<a href="/projects/backbone-cache" 
+					class="hidden-xs btn btn-primary btn-md pull-right" 
+					title="View Project">View Project</a>
+				
+				<a href="/projects/backbone-cache" 
+					class="visible-xs btn btn-primary btn-block btn-sm" 
+					title="View Project">View Project</a>
+			</div>
+		</li>
 
 
 
