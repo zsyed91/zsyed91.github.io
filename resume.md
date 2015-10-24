@@ -10,10 +10,24 @@ overview: I am a passionate software developer who enjoys creating useful tools 
 	<div class="col-lg-12">
 
 		<div class="wrapper">
+			<h3>Enova International</h3>
+			<h4>Senior Software Engineer</h4>
+
+			<h5>July 2015 - Present</h5>
+
+			<ul>
+				<li>Use Ruby on Rails, Postgres, and Riak for use in customer data modeling</li>
+				<li>Implement Ruby on Rails projects for the analytics team</li>
+				<li>Use Go for performance in realtime data applications</li>
+			</ul>
+		</div>
+
+
+		<div class="wrapper">
 			<h3>UnitedHealth Group</h3>
 			<h4>Software Engineer</h4>
 
-			<h5>June 2013 - Present</h5>
+			<h5>June 2013 - June 2015</h5>
 
 			<ul>
 				<li>Use Perl, Java, Javascript, HTML/CSS/SASS, Backbone/Handlebars to write Emergency Department EMR Application</li>
@@ -63,6 +77,12 @@ overview: I am a passionate software developer who enjoys creating useful tools 
 			<h3>Technologies and Skills</h3>
 
 			<ul>
+				<li>Ruby on Rails</li>
+				<li>RSpec</li>
+				<li>Golang</li>
+				<li>Postgres</li>
+				<li>Riak</li>
+				<li>AWS/S3</li>
 				<li>Javascript (Underscore, Require)</li>
 				<li>Backbone/Handlebars</li>
 				<li>MongoDB</li>
@@ -73,19 +93,16 @@ overview: I am a passionate software developer who enjoys creating useful tools 
 				<li>JQuery/JQuery UI</li>
 				<li>Perl</li>
 				<li>Python</li>
-				<li>Ruby on Rails</li>
 				<li>PHP</li>
 				<li>C#</li>
-				<li>RSpec</li>
 				<li>Jasmine.js</li>
 				<li>Information Security/Cryptography</li>
 				<li>Objective C</li>
 				<li>Linux</li>
-				<li>Git/Mercurial/Subversion</li>
-				<li>Agile/Scrum/Kanban</li>
+				<li>Git/</li>
+				<li>Agile/Scrum</li>
 				<li>JSON/XML</li>
 				<li>Heroku</li>
-				<li>Vagrant</li>
 			</ul>
 			
 		</div>
