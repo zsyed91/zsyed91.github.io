@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Perl Pull Request Challenge 2016
-summary: Second year, hopefully more successful
+summary: Second year, hopefully more successfull
 ---
 
 This is the second year of the perl pull request challenge. One repo per month with the
@@ -41,4 +41,4 @@ basically makes sure the the phone number consists of an optional `+` and the be
 mark makes the escaped `\+` optional. After the optional plus, we have strictly digits denoted by the `\d` until the end of the string
 which is denoted by the `\$` at the end.
 
-In conlusion, let's see how far I can go this year!
+In conclusion, let's see how far I can go this year!
