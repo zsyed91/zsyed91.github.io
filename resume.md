@@ -10,15 +10,33 @@ overview: I am a passionate software developer who enjoys creating useful tools 
 	<div class="col-lg-12">
 
 		<div class="wrapper">
+			<h3>Amazon Web Services (AWS)</h3>
+			<h4>Software Engineer II</h4>
+
+			<h5>May 2016 - Present</h5>
+
+			<ul>
+				<li>Support the Control Plane core services under then AWS Elastic Load Balancer team</li>
+				<li>Enhance and support operationally the core scaling service for customer load balancers</li>
+				<li>Help manage security patches for both OS and software</li>
+				<li>Scale out services and build automation tooling for new AWS region launches</li>
+				<li>Part of an on-call rotation for operationally supporting the ELB Control Plane</li>
+				<li>Use Java, Ruby, Ruby on Rails to add new features to existing services and launch new services</li>
+				<li>Work on extremely large scale distributed systems and micro services</li>
+				<li>Mentor interns and new hires</li>
+			</ul>
+		</div>
+
+		<div class="wrapper">
 			<h3>Enova International</h3>
 			<h4>Senior Software Engineer</h4>
 
-			<h5>July 2015 - Present</h5>
+			<h5>July 2015 - April 2016</h5>
 
 			<ul>
 				<li>Use Ruby on Rails, Postgres, and Riak for use in customer data modeling</li>
 				<li>Implement Ruby on Rails projects for the analytics team</li>
-				<li>Use Go for performance in realtime data applications</li>
+				<li>Use Golang for performance in realtime data applications</li>
 			</ul>
 		</div>
 
@@ -62,7 +80,7 @@ overview: I am a passionate software developer who enjoys creating useful tools 
 			<h3>Puerto Rican Cultural Center of Chicago</h3>
 			<h4>Volunteer Software Developer</h4>
 
-			<h5>August 2012 - Present</h5>
+			<h5>August 2012 - April 2016</h5>
 
 			<ul>
 				<li>Creating a website to handle converting and preserving historical documents in a digital format</li>
@@ -81,28 +99,23 @@ overview: I am a passionate software developer who enjoys creating useful tools 
 				<li>RSpec</li>
 				<li>Golang</li>
 				<li>Postgres</li>
-				<li>Riak</li>
-				<li>AWS/S3</li>
+				<li>AWS (EC2, ELB, S3, DDB, Kinesis, Route53, SQS/SNS)</li>
 				<li>Javascript (Underscore, Require)</li>
 				<li>Backbone/Handlebars</li>
-				<li>MongoDB</li>
 				<li>Java</li>
 				<li>Bootstrap</li>
 				<li>Node/Express/npm</li>
 				<li>HTML/CSS/SASS</li>
 				<li>JQuery/JQuery UI</li>
-				<li>Perl</li>
 				<li>Python</li>
 				<li>PHP</li>
 				<li>C#</li>
 				<li>Jasmine.js</li>
 				<li>Information Security/Cryptography</li>
-				<li>Objective C</li>
 				<li>Linux</li>
-				<li>Git/</li>
+				<li>Git</li>
 				<li>Agile/Scrum</li>
 				<li>JSON/XML</li>
-				<li>Heroku</li>
 			</ul>
 			
 		</div>
@@ -119,10 +132,6 @@ overview: I am a passionate software developer who enjoys creating useful tools 
 				<li>Chicago Javascript Group</li>
 			</ul>
 		</div>
-
-	
-
-
 	</div>
 </div>
 </div>
