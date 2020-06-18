@@ -85,3 +85,7 @@ bundle install
 ### Conclusion
 
 At this point we created our local environment and installed the necessary binaries. The next post will dive into setting up AWS resources including the beanstalk environment, RDS instance, and VPC/Security Groups.
+
+#### Rails 6 Series
+* Rails 6 Series - Starting Rails 6 with Vue on AWS
+* [Rails 6 Series - Setting up AWS resources](/2020/06/02/setting-up-aws/)
