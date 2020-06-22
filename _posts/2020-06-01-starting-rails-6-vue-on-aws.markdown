@@ -4,6 +4,13 @@ title: "[Rails 6 Series] Starting Rails 6 with Vue on AWS"
 summary: This is the first post of a series on launching a Rails 6 app with Vue/Webpack on AWS.
 ---
 
+<h3 class="no_toc">
+Posts in Series
+</h3>
+* Rails 6 Series - Starting Rails 6 with Vue on AWS
+* [Rails 6 Series - Setting up AWS resources](/2020/06/02/setting-up-aws/)
+* [Rails 6 Series - Deploying to AWS](/2020/06/10/deploying-to-aws)
+
 I recently started a personal project and wanted to try out Rails 6 with Vue (and Webpack). I was able to get this stack working locally with relative ease. However, when I attempted to push
 this idea to production I was met with many roadblocks. My goal was to use AWS to host the project. AWS has migrated to using "Amazon Linux 2" which has resulted in a lot of
 outdated tutorials and code snippets. Furthermore, I also found a lack of conscise and up to date documentation for pushing Rails 6 with Webpack to production.

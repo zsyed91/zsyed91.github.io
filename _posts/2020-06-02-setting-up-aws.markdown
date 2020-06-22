@@ -5,6 +5,13 @@ summary: Setting up the AWS resources needed including Elastic Beanstalk for our
 toc: true
 ---
 
+<h3 class="no_toc">
+Posts in Series
+</h3>
+* [Rails 6 Series - Starting Rails 6 with Vue on AWS](/2020/06/01/starting-rails-6-vue-on-aws/)
+* Rails 6 Series - Setting up AWS resources
+* [Rails 6 Series - Deploying to AWS](/2020/06/10/deploying-to-aws)
+
 # Overview
 
 To begin hosting our application in AWS we will first go into the Console and set up our environment configuration on AWS Elastic Beanstalk manually. Beanstalk
