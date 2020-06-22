@@ -2,6 +2,7 @@
 layout: post
 title: "[Rails 6 Series] Setting up AWS resources"
 summary: Setting up the AWS resources needed including Elastic Beanstalk for our Rails 6 project
+toc: true
 ---
 
 # Overview
@@ -52,7 +53,7 @@ To make life a bit easier let's make sure to enable public ip's on our instances
 1. Select `Actions` at the top and navigate to `Modify auto-assign IP settings`
 1. Ensure that the checkbox is enabled
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/create_subnet.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/enable_public_ipv4_address.png" | prepend: site.baseurl }}" />
 
 ### Internet Gateway
 
@@ -78,7 +79,7 @@ The next step is to make sure that your route table can route traffic correctly 
 
 We will now setup our EC2 resources which will just consist of a new security group for our application. Go back to the console and head over to the EC2 page.
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/management_console_ec2_dropdown.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/management_console_ec2_dropdown.png" | prepend: site.baseurl }}" class="center-image" />
 
 ### Security Group
 
@@ -94,9 +95,9 @@ From the left bar select `Security Groups` which will be under the `Network & Se
 1. Inbound rules
     1. Make sure to lock it to HTTP and HTTPS traffic only
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/create_security_group_button.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/create_security_group_button.png" | prepend: site.baseurl }}" class="center-image"/>
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/create_security_group_inbound_rules.png" | prepend: site.baseurl }}" class="center-align" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/create_security_group_inbound_rules.png" | prepend: site.baseurl }}" class="center-image" />
 
 #### RDS Security Group
 
@@ -131,13 +132,13 @@ The last thing we need to setup before we create our Elastic Beanstalk environme
     1. Pick a database port, or use the default one for Postgre (`5432`)
 1. Scroll to the bottom and hit the `Create database` button
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/management_console_rds_dropdown.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/management_console_rds_dropdown.png" | prepend: site.baseurl }}" class="center-image"  />
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/create_rds.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/create_rds.png" | prepend: site.baseurl }}" class="center-image"  />
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/create_rds_step_1.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/create_rds_step_1.png" | prepend: site.baseurl }}" class="center-image"  />
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/create_rds_step_2.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/create_rds_step_2.png" | prepend: site.baseurl }}" class="center-image"  />
 
 ## Elastic Beanstalk
 
@@ -157,21 +158,21 @@ Now we get to the final part of our AWS setup, which is to create our Elastic Be
     1. Use the `Sample application` for now, we will push our code eventually
 1. Hit the `Create environment button`
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/management_console_eb_dropdown.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/management_console_eb_dropdown.png" | prepend: site.baseurl }}"class="center-image"  />
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/create_new_eb_environment.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/create_new_eb_environment.png" | prepend: site.baseurl }}" class="center-image"  />
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/create_new_eb_step_1.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/create_new_eb_step_1.png" | prepend: site.baseurl }}" class="center-image"  />
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/create_new_eb_step_2.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/create_new_eb_step_2.png" | prepend: site.baseurl }}" class="center-image"  />
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/create_new_eb_step_3.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/create_new_eb_step_3.png" | prepend: site.baseurl }}" class="center-image"  />
 
 For the next sections, simply go to your application in beanstalk and click on the environment name. This will take you to a page that looks like this:
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration.png" | prepend: site.baseurl }}" class="center-image"  />
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration_overview.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration_overview.png" | prepend: site.baseurl }}" class="center-image"  />
 
 ### Beanstalk Configuration - Software
 
@@ -185,7 +186,7 @@ For the next sections, simply go to your application in beanstalk and click on t
     1. `RAILS_SKIP_ASSET_COMPILATION = false`
     1. `RAILS_SKIP_MIGRATIONS = false`
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration_software.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration_software.png" | prepend: site.baseurl }}" class="center-image"  />
 
 ### Beanstalk Configuration - Instances
 
@@ -194,7 +195,7 @@ For the next sections, simply go to your application in beanstalk and click on t
     1. The security group that should be added is `app_name-web`
 1. Leave everything else as default values
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration_instances.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration_instances.png" | prepend: site.baseurl }}" class="center-image"  />
 
 ### Beanstalk Configuration - Capacity
 
@@ -208,7 +209,7 @@ This step is **completely optional** and you can skip this if you do **not** wan
 1. Under the `Scaling triggers` section
    1. Update the scaling triggers to what your application needs or just leave it to the default values for now, we can change this at any time
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration_capacity.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration_capacity.png" | prepend: site.baseurl }}" class="center-image"  />
 
 ### Beanstalk Configuration - Load Balancer (ELB)
 
@@ -232,7 +233,7 @@ This step is **completely optional** and you can skip this if you do **not** wan
     1. Make sure to enable `Public IP addreess` on your instances so that the ELB will be able to send traffic to them
     1. Enable all subnets here as well
 
-<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration_network.png" | prepend: site.baseurl }}" />
+<img src="{{ "/images/2020_06_02_setting_up_aws/eb_configuration_network.png" | prepend: site.baseurl }}" class="center-image"  />
 
 # Conclusion
 
@@ -244,3 +245,4 @@ To check out the default application that elastic beanstalk has created for us, 
 
 * [Rails 6 Series - Starting Rails 6 with Vue on AWS](/2020/06/01/starting-rails-6-vue-on-aws/)
 * Rails 6 Series - Setting up AWS resources
+* [Rails 6 Series - Deploying to AWS](/2020/06/10/deploying-to-aws)

@@ -4,17 +4,12 @@ title: Contact
 permalink: /contact/
 ---
 
-
 Zshawn Syed
-
 
 #### About Me
 I am a software developer with a passion for creating applications and tools to make life easier for people. I love to learn as many technologies as I can and take on different types of projects.
 
 I am very interested in informational security and always try to code with security in mind. 
-
-
-
 
 #### Ways to contact me
 <div class="row">

@@ -89,3 +89,4 @@ At this point we created our local environment and installed the necessary binar
 #### Rails 6 Series
 * Rails 6 Series - Starting Rails 6 with Vue on AWS
 * [Rails 6 Series - Setting up AWS resources](/2020/06/02/setting-up-aws/)
+* [Rails 6 Series - Deploying to AWS](/2020/06/10/deploying-to-aws)

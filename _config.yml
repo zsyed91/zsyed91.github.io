@@ -14,4 +14,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 10
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-toc
+  - jekyll-gist
