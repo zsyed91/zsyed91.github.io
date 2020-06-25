@@ -52,7 +52,7 @@ The final bit is to load in Vue into our application pack found in `app/javascri
 
 Using webpack lets us migrate out of the Asset Pipeline for javascript files. This is a bit of a shift in thinking if you have been using Rails for a while. The key difference is that you can write your javascript files within `app/javascript/` instead of `app/assets`. The way to model this approach is that you build your directory structure within `app/javascript/*` and use require statements to cross load all your local dependencies. Everything here will be compiled and minified by `webpack` during application build.
 
-Intead of using `javascript_include_tag`, we use `javascript_pack_tags` to load files inside of the `app/javascript/packs` folder. Each pack can be considered a mini application bundle. You can generate as many as you need or bundle it all into 1 pack.
+Intead of using `javascript_include_tag`, use the `javascript_pack_tag` to load files inside of the `app/javascript/packs` folder. Each pack can be considered a mini application bundle. You can generate as many as you need or bundle it all into 1 pack.
 
 ## Conclusion
 
