@@ -9,9 +9,10 @@ toc: true
 Posts in Series
 </h3>
 
-* [Rails 6 Series - Starting Rails 6 with Vue on AWS](/2020/06/01/starting-rails-6-vue-on-aws/)
-* [Rails 6 Series - Setting up AWS resources](/2020/06/02/setting-up-aws/)
+* [Rails 6 Series - Starting Rails 6 with Vue on AWS]({% post_url 2020-06-01-starting-rails-6-vue-on-aws %})
+* [Rails 6 Series - Setting up AWS resources]({% post_url 2020-06-02-setting-up-aws %})
 * Rails 6 Series - Deploying to AWS
+* [Rails 6 Series - Configuring Vue and Webpack]({% post_url 2020-06-15-configuring-webpack-and-vue %})
 
 # Overview
 
@@ -131,6 +132,9 @@ The next post will go over actually using Vue with webpack now that our stack is
 
 The next post will go over actually using Vue with webpack now that our application can be deployed. We will import Vue, configure both Vue and Webpack, and learn how to migrate from using the Asset Pipeline to creating packs instead.
 
-* [Rails 6 Series - Starting Rails 6 with Vue on AWS](/2020/06/01/starting-rails-6-vue-on-aws/)
-* [Rails 6 Series - Setting up AWS resources](/2020/06/02/setting-up-aws/)
+#### Rails 6 Series
+
+* [Rails 6 Series - Starting Rails 6 with Vue on AWS]({% post_url 2020-06-01-starting-rails-6-vue-on-aws %})
+* [Rails 6 Series - Setting up AWS resources]({% post_url 2020-06-02-setting-up-aws %})
 * Rails 6 Series - Deploying to AWS
+* [Rails 6 Series - Configuring Vue and Webpack]({% post_url 2020-06-15-configuring-webpack-and-vue %})

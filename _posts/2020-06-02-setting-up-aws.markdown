@@ -8,9 +8,10 @@ toc: true
 <h3 class="no_toc">
 Posts in Series
 </h3>
-* [Rails 6 Series - Starting Rails 6 with Vue on AWS](/2020/06/01/starting-rails-6-vue-on-aws/)
+* [Rails 6 Series - Starting Rails 6 with Vue on AWS]({% post_url 2020-06-01-starting-rails-6-vue-on-aws %})
 * Rails 6 Series - Setting up AWS resources
-* [Rails 6 Series - Deploying to AWS](/2020/06/10/deploying-to-aws)
+* [Rails 6 Series - Deploying to AWS]({% post_url 2020-06-10-deploying-to-aws %})
+* [Rails 6 Series - Configuring Vue and Webpack]({% post_url 2020-06-15-configuring-webpack-and-vue %})
 
 # Overview
 
@@ -250,6 +251,7 @@ To check out the default application that elastic beanstalk has created for us, 
 
 #### Rails 6 Series
 
-* [Rails 6 Series - Starting Rails 6 with Vue on AWS](/2020/06/01/starting-rails-6-vue-on-aws/)
+* [Rails 6 Series - Starting Rails 6 with Vue on AWS]({% post_url 2020-06-01-starting-rails-6-vue-on-aws %})
 * Rails 6 Series - Setting up AWS resources
-* [Rails 6 Series - Deploying to AWS](/2020/06/10/deploying-to-aws)
+* [Rails 6 Series - Deploying to AWS]({% post_url 2020-06-10-deploying-to-aws %})
+* [Rails 6 Series - Configuring Vue and Webpack]({% post_url 2020-06-15-configuring-webpack-and-vue %})

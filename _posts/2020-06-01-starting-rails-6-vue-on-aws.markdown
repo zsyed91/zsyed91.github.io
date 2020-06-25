@@ -8,8 +8,9 @@ summary: This is the first post of a series on launching a Rails 6 app with Vue/
 Posts in Series
 </h3>
 * Rails 6 Series - Starting Rails 6 with Vue on AWS
-* [Rails 6 Series - Setting up AWS resources](/2020/06/02/setting-up-aws/)
-* [Rails 6 Series - Deploying to AWS](/2020/06/10/deploying-to-aws)
+* [Rails 6 Series - Setting up AWS resources]({% post_url 2020-06-02-setting-up-aws %})
+* [Rails 6 Series - Deploying to AWS]({% post_url 2020-06-10-deploying-to-aws %})
+* [Rails 6 Series - Configuring Vue and Webpack]({% post_url 2020-06-15-configuring-webpack-and-vue %})
 
 I recently started a personal project and wanted to try out Rails 6 with Vue (and Webpack). I was able to get this stack working locally with relative ease. However, when I attempted to push
 this idea to production I was met with many roadblocks. My goal was to use AWS to host the project. AWS has migrated to using "Amazon Linux 2" which has resulted in a lot of
@@ -94,6 +95,8 @@ bundle install
 At this point we created our local environment and installed the necessary binaries. The next post will dive into setting up AWS resources including the beanstalk environment, RDS instance, and VPC/Security Groups.
 
 #### Rails 6 Series
+
 * Rails 6 Series - Starting Rails 6 with Vue on AWS
-* [Rails 6 Series - Setting up AWS resources](/2020/06/02/setting-up-aws/)
-* [Rails 6 Series - Deploying to AWS](/2020/06/10/deploying-to-aws)
+* [Rails 6 Series - Setting up AWS resources]({% post_url 2020-06-02-setting-up-aws %})
+* [Rails 6 Series - Deploying to AWS]({% post_url 2020-06-10-deploying-to-aws %})
+* [Rails 6 Series - Configuring Vue and Webpack]({% post_url 2020-06-15-configuring-webpack-and-vue %})
