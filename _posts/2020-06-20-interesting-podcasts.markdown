@@ -38,7 +38,7 @@ This podcast is a relatively new one but already has a decent range of episodes.
 
 [Episode 8: Tests and Webpacker](https://www.therubyblend.com/8) - Testing is a common theme in the ruby community. This episode covers some interesting points in testing along with webpacker adoption into Rails. The hosts go into detail about what their experiences so far have been and how they approach testing legacy Rails applications. The hosts also talk a bit more about how working from home has been going, which builds a little bit on top of episode 6, which was an episode dedicated to that topic.
 
-[Episode 9: ViewComponent at GitHub with Joel Hawksley](https://www.therubyblend.com/9)
+[Episode 9: ViewComponent at GitHub with Joel Hawksley](https://www.therubyblend.com/9) - ViewComponent extends functionality when building views. This was initially designed to be integrated into Rails but ended up being an optional drop in. The library allows for using ruby objects to generate views. This allows for creating better tests again the generated views. The library was created by Github and is used internally by them. If you are interested in seeing some interesting changes to how views could be generated in Rails and better testing against them, check this episode out. Joel Hawksley is the maintainer and goes into details on what inspired its creation, why it did not get merged into the Rails 6 code, and what he believes to be the future of this gem.
 
 ## 3. Ruby Rogues
 
