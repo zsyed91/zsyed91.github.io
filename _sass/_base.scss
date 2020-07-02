@@ -188,3 +188,10 @@ html, body {
   margin-bottom: -150px;
   padding-bottom: 200px;
 }
+
+.toc-top-list {
+    list-style-type: upper-alpha;
+}
+.toc-sublist {
+    list-style-type: lower-alpha;
+}

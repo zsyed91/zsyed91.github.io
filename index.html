@@ -4,26 +4,25 @@ layout: home
 
 <section class="page-content">
   <div class="container wrapper">
-
     <h1>Recent Posts</h1>
 
     <ul class="post-list">
-    {% for post in site.posts limit: 5 %}
-      <li>
+      {% for post in site.posts limit: 5 %}
+        <li>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <p>{{post.summary}}</p>
-      </li>
-    {% endfor %}
-  </ul>
+          <p>{{post.summary}}</p>
+        </li>
+      {% endfor %}
+    </ul>
 
+    <a href="{{ 'blog' | prepend: site.baseurl }}" class="btn btn-block btn-primary" title="Read All">Read All</a>  
   </div>
 </section>
-
 
 <div class="no-gutters container">
 <section class="row">
