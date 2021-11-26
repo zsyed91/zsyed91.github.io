@@ -39,8 +39,8 @@ kubectl exec $(kubectl get pods | grep server | sed 's/ .*//') -- /bin/bash -c "
 The command above is doing the following:
 
 - The sub-command `$(kubectl ...)` is getting all the pods, grepping for our server pod name, and then stripping everything but the first word that contains our full pod name
-- This is then substituted into the `kubectl exec <our_pod_name`
-- Then finally, the `/bin.bash -c "rails db:migrate"` runs a one off command and auto-exits (we are not opening an interative connection
+- This is then substituted into the `kubectl exec <our_pod_name>`
+- Then finally, the `/bin/bash -c "rails db:migrate"` runs a one off command and auto-exits (we are not opening an interative connection
 - Profit!
 
 
