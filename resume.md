@@ -10,10 +10,25 @@ overview: I am a passionate software engineer who enjoys creating useful tools t
 	<div class="col-lg-12">
 
     	<div class="wrapper">
+    		<h3>PayPal (Braintree)</h3>
+    		<h4>Member of Technical Staff II Software Engineer</h4>
+
+    		<h5>Oct 2020 - Present</h5>
+
+    		<ul>
+          <li>Lead team initiatives, interview potential candidates, and mentor new hires</li>
+          <li>Implement new reports in Merchant Sandbox environment using Spark, Scala, and Snowflake schema datalake</li>
+          <li>Design fact and dimension tables in Snowflake schema datalake</li>
+          <li>Provide SME engineering advice to 2 separate verticals related to Billpay</li>
+          <li>Design and implement a distributed feature validation platform to monitor downstream regressions related to Billpay (PayPal, Braintree, Venmo, and Hyperwallet systems)</li>
+    		</ul>
+    	</div>
+
+    	<div class="wrapper">
     		<h3>Amazon Web Services (AWS)</h3>
     		<h4>Software Engineer II</h4>
 
-    		<h5>May 2016 - Present</h5>
+    		<h5>May 2016 - Oct 2020</h5>
 
     		<ul>
     			<li>Support the Control Plane core services under the AWS Elastic Load Balancer team</li>
@@ -94,16 +109,18 @@ overview: I am a passionate software engineer who enjoys creating useful tools t
     			<li>RSpec</li>
 					<li>Java</li>
 					<li>AWS (EC2, ELB, S3, DDB, Kinesis, Route53, SQS/SNS, ElasticBeanstalk)</li>
-    			<li>Golang</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
     			<li>Postgres</li>
     			<li>HTML/CSS/SASS</li>
-    			<li>Javascript (Underscore, Require)</li>
+    			<li>Javascript (React, Vue)</li>
     			<li>Bootstrap</li>
     			<li>Node/Express/npm</li>
-    			<li>JQuery/JQuery UI</li>
-					<li>Backbone/Handlebars</li>
+    			<li>Golang</li>
     			<li>Python</li>
     			<li>C#</li>
+    			<li>JQuery/JQuery UI</li>
+					<li>Backbone/Handlebars</li>
     			<li>Information Security/Cryptography</li>
     			<li>Linux</li>
     			<li>Git</li>
